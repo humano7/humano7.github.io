@@ -1,174 +1,126 @@
-/* Utilities */
+/*
+Hoja de Estilos para pagina web de Sergio Correa
+--------------------------------------------------
 
 
-.u-title{
-    border-bottom: 2px dashed #00CCFF;
-    color: #00CCFF;
-    font-weight: normal;
-    font-size: 1.5em;
-    padding-bottom: .5em;
-    text-align: center;
+
+
+
+*/
+
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
 }
 
-.u-containerDefault{
-    width: 800px;
-    margin: 0 auto;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Varela Round', sans-serif;
 }
 
-
-/* MainMenu */
-
-.MainMenu{
-    background: #1E1E1E;
-    text-align: center;
-    height: 3.75em;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
+h1 {
+    font-size: 40px;
+    line-height: 1.5;
+    text-transform: uppercase;
 }
 
-.MainMenu-list{
-    margin:0;
-    padding: 0;
+ol,
+ul {
+    list-style: none;
 }
 
-.MainMenu-item{
-    display: inline-block;
+/* Encabezado*/
+.header {
+    background-color: #293746;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    display: flex;
+ 
 }
 
-.MainMenu-link{
-    color: #00DBFF;
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+
+    height: inherit;
+
+    
+}
+
+.header a {
+    color: aliceblue;
     text-decoration: none;
-    line-height: 3.75em;
-    margin-right: 1.5em;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
 }
 
-/* Header */
+.menu {
+    height: inherit;
+}
 
-
-.Header{
-    margin-top: 3.75em;
-    background-image: url('../images/portada.jpg');
+/* Hero */
+.general {
+    height: 300px;
+    
+    color: aliceblue;
+    background-image: url('../images/sergio_3.png');
+    background-size: auto 350px;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    padding:1.2em 0;
+    background-position-x: right;
+    background-color: black;
 }
 
-.Header-imageContainer{
-    margin: 0;
+.portfolio {
+    padding: 20px;
+    background:#FAFAFA;
 }
 
-.Header-image{
-    border: 5px solid white;
-    border-radius: 50%;
+.page {
+    /* tamaño tipo estilo */
+  
+    border: 1px solid gray;
+    border-radius:  10px;
+    background-color: beige;
+
+    margin-bottom: 15px;
+    padding: 20px;
+    
+    display: flex;
+
+    
 }
 
-.Header-name,
-.Header-link{
-    color: white;
+.page-details {
+    height: 300px;
+    width: 900px;
 }
 
-.Header-link{
-    font-size: 2.2em;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.Header-name{
-    font-size: 1.5em;
-    font-weight: 300;
-    margin: 0;
-}
-
-
-/* Profile */
-
-.Profile{
-    text-align: center;
-}
-
-.Profile-link{
-    background: orange;
-    border-radius: 2em;
-    color: white;
-    margin-right: .5em;
-    padding: .5em 1em;
-    text-decoration: none;
-}
-
-/* Work */
-
-.Work{
-    margin-top: 2em;
-    text-align: center;
+figure {
+    margin:20 ;
 }
 
 
-.Work-item{
-    display: inline-block;
-    margin-right: 1.8em;
-    margin-bottom: 1.8em;
+.footer {
+    color: #FAFAFA;
+    background-color: #293746;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.Work-imageContainer{
-    margin: 0;
+.footer img {
+    vertical-align: middle;
 }
 
-.Work-description{
-    font-size: 1.1em;
-    color: #515151;
-    font-style: italic;
-}
-
-/* Footer */
-
-.Footer{
-    background-image: url('../images/footer.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 2em 0;
-    text-align: center;
-}
-
-
-.Footer-form{
-    text-align: center;
-    display: inline-block;
-}
-
-.Footer-left{
-    display: inline-block;
-    width: 32em;
-    text-align: center;
-    vertical-align: top;
-}
-
-.Footer-title{
-    color: white;
-}
-
-.Footer-formInput,
-.Footer-textarea{
-    background: white;
-    border: none;
-    display: block;
-    border-radius: 2em;
-    padding: .5em;
-    margin: 0 auto 1em;
-}
-
-.Footer-textarea{
-    resize: none;
-}
-
-.Footer-button{
-    background: orange;
-    border-radius: 1em;
-    border: none;
-    color: white;
-    padding: .5em 1em;
-}
